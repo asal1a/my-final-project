@@ -1,0 +1,137 @@
+a {
+    margin: 10px;
+    font: italic black;
+}
+
+body {
+    display: grid;
+    background-color: #d5dcdc;
+    margin: 0%
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8 {
+    display: none;
+    height: 30px;
+    width: 100px;
+    background-color: #D7B5A6;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-outline-danger {
+    height: 40px;
+    width: 100px;
+    background-color: #BAB0AC;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #cbc497;
+    justify-content: end;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: #867365;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.info {
+    background-color: #F2CBBC;
+    font: 'Dancing Script', cursive;
+}
+
+.Mpic {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 5%;
+    font-style: italic;
+    margin-top: 30px;
+    margin-right: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    color: #7d8d87;
+}
+
+.nav {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #BEA991;
+    justify-content: center;
+}
+
+#p {
+    margin: 0%;
+    padding-left: 0%;
+    border: 0%;
+}
+
+.pic {
+    display: block;
+    height: 60%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px;
+}
+
+.pic1,
+.pic2,
+.pic5,
+.pic7,
+.pic6,
+.pic8 {
+    width: 150px;
+    height: 100px;
+}
+
+.pic3,
+.pic4 {
+    width: 130px;
+    height: 80px;
+}
+
+@media screen and (min-width: 520px) and (max-width:768px) {
+    .Mpic {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+}
