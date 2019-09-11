@@ -2,7 +2,7 @@ console.log(`lod`)
 
 
 $(function() {
-    $("#p").slideDown(3000);
+    $('#p').slideUp(3000).slideDown(3000);
 });
 $('#pic1').click(function() {
     $('#pic2').hide();
@@ -91,7 +91,10 @@ $('#pic8').click(function() {
     $('#pic5').hide();
     $('#pic6').hide();
     $('#pic7').hide();
-    $('#pic8').hide();
+    $('#pic3').hide();
     $('#btn8').show();
 
 });
+$("#tw").wrap($('<a>', {
+    href: 'https://twitter.com/modnah_zhr'
+}));
